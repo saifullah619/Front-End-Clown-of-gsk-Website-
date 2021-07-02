@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>G.S.K </title>
+
+<style type="text/css">
+
+	body{
+		margin: 0;
+	}
+
+	.logodiv {
+		margin-top: 10px;
+		float : left;
+	}
+
+	#topbar{
+		width:1530px; 
+		height:50px;
+		margin-left: 50px;
+		position: relative;
+		}
+
+	
+	
+	
+	#topMenuDiv {
+		float: left;
+		margin-left: 600px;
+		
+	}
+
+	#topMenuDiv ul{
+		margin: 0;
+
+	}
+
+	#topMenuDiv li {
+		margin-left: 10px;
+		list-style: none;  
+		float: left;
+		padding-top: 20px;
+		font-size: 1em;
+		font-family: "Akzidenz-Grotesk Pro Regular",Arial,sans-serif;
+
+		
+	}
+
+	#topMenuDiv img {
+		margin-left: 15px;
+		list-style: none   ;
+		float: left        ;
+		border-left:  1px  solid lightgrey ;
+		padding-top: 10px;
+		padding-left: 5px;
+		padding-bottom:  5px; 
+	}
+
+
+	#topMenuDiv video {
+		margin: 0;
+		margin-left: 15px;
+		padding-top : 10px;
+		float: left;
+		border-left:  1px  solid lightgrey ;
+		padding-left: 5px;
+		padding-bottom:  5px; 
+	}
+
+
+	.corona{
+		font-weight: bold;
+		color: #147189;
+		font-size: 1em;
+	}
+
+	.science{
+		font-weight: bold;
+		color: #f36633;
+		font-size: 1em;
+	}
+
+
+
+
+	#secondBar {
+		margin-left: 130px;
+		position: relative;
+	}
+
+
+
+	.secondmenu ul{
+		margin: 0;
+		margin-left: 0px;
+		padding-left: 6px;
+		padding-right: 30px;
+		width: 1480px;
+		height: 50px;
+	}
+
+	.secondmenu li {
+		margin-left: 0;
+		margin-top: -3px;
+		padding-right: 30px;
+		height: 30px;
+		width: 200px;
+		padding: 20px 20px 20px 20px;
+		padding-bottom: 18px;
+		list-style: none;  
+		float: left;
+		font-size: 1.1em;
+		font-family: "Akzidenz-Grotesk Pro Regular",Arial,sans-serif;
+		color: white;
+		background-color: #f36633 ;
+		text-align: center;
+	}
+
+	.break{
+		clear: both;
+	}
+
+	.video-container {
+	  position: absolute;
+	  top: 15%;
+	  bottom: 0;
+	  width: 100%;
+	  height: 70%; 
+	  overflow: hidden;
+	}
+	.video-container video {
+	  /* Make video to at least 100% wide and tall */
+	  min-width: 100%; 
+	  min-height: 100%; 
+
+	  /* Setting width & height to auto prevents the browser 
+	  from stretching or squishing the video */
+	  width: auto;
+	  height: auto;
+
+	  /* Center the video */
+	  z-index: 1;
+	  position: absolute;
+	  top: 90%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	}
+
+
+	
+
+	.mediabox {
+		height: 145px;
+		width: 710px;	
+		z-index: 2;
+		position: relative;
+		top:390px;
+		left: 110px;
+		background-color: white;
+	}
+
+	.mediatitle {
+		
+		color: #4c8b93;
+		font-size: 1em;
+		font-family: "Akzidenz-Grotesk Pro Regular",Arial,sans-serif;
+		margin-left: 30px ;
+		padding-top: 15px;
+		padding-bottom: 0;
+		font-weight: bold;
+		
+	}
+
+	.mediaresponse {
+		color: #72635d;
+		font-size: 2.2em; 
+		font-family: "Akzidenz-Grotesk Pro Regular",Arial,sans-serif;
+		margin-left: 30px ;
+		font-weight: bolder;
+		padding-top: 0;
+		margin-top: 0;
+
+	}
+
+
+	#searchdiv {
+		position: relative;
+		top: 500px;
+		align-content: center;
+		background-color: red;
+		margin-left: 110px;
+		width: 1300px;
+		height: 80px;
+	}
+	
+	#searchdiv input {
+		height: 80px;
+		width: 1300px;
+		border: none;
+		font-size: 1.9em;
+		padding-left: 80px;
+		padding-right: 0px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		background-image: url("images/search.jpg");
+		background-repeat: no-repeat;
+		background-position: left center;
+		background-color: #f0efed;
+		font-family: "Akzidenz-Grotesk Pro Regular",Arial,sans-serif;
+		font-weight: bolder;
+	}
+
+
+
+    	.forum {
+        	color: black;
+
+    		}
+
+    	.forum:hover {
+        	background-color: white !important;
+    		color: #f36633;
+
+    	}
+
+	
+ 
+
+</style>
+</head>
+
+
+<body>
+	<div class="logodiv">
+		<img src="images/logo.png"/>
+	</div>
+
+	<div id=container>
+		<div id="topbar">
+			<div id="topMenuDiv">
+				<ul>
+				<video loop autoplay >  Your browser does not support the &lt;video&gt; tag.
+	  			<source src="images/rotating.mp4"/>
+				</video>
+				<li class="corona" >COVID-19</li>
+				<video loop autoplay >  Your browser does not support the &lt;video&gt; tag.
+	  			<source src="images/rsci.mp4"/>
+				</video>
+				<li class="science">Behind the science</li>
+				<img src="images/logo3.png"/>
+				<li>Global Website</li>
+				<img src="images/logo4.png"/>
+				<li>Contact Us</li>
+				<img src="images/logo5.png"/>
+				<li>Search</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="secondBar">
+			<div class="secondmenu">
+				<ul>
+					<li class="forum">About us</li>
+					<li class="forum">Products</li>
+					<li class="forum">Careers</li>
+					<li class="forum">Media</li>
+					<li class="forum">Research</li>
+					<li class="forum">Responsibility</li>
+				</ul>
+				
+			</div>
+		</div>
+
+		
+		<div class="break video-container">
+			<video height="520" width="1600" loop autoplay >  Your browser does not support the &lt;video&gt; tag.
+	  		<source src="images/multicoronavirus_loop_15sec_5mb.mp4"/>
+			</video>
+		</div>
+
+		<div class="mediabox">
+			<p class="mediatitle"> Media </p>
+			<p class="mediaresponse">GSK actions to support the <br> global response to COVID-19</p>
+			
+		</div>
+
+		<div id="searchdiv" >
+			<input type="text" placeholder="Search GSK" >
+		</div>
+				
+	</div>
+</body>
+
+
+</html>
